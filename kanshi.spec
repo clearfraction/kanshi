@@ -2,7 +2,7 @@ Name     : kanshi
 Version  : 1.2.0
 Release  : 1
 URL      : https://git.sr.ht/~emersion/kanshi
-Source0  : https://git.sr.ht/~emersion/kanshi/archive/%{version}.tar.gz#/kanshi-%{version}.tar.gz
+Source0  : https://git.sr.ht/~emersion/kanshi/archive/v%{version}.tar.gz
 Summary  : Dynamic display configuration
 Group    : Development/Tools
 License  : MIT
@@ -15,7 +15,7 @@ Kanshi allows you to define output profiles that are automatically enabled
 and disabled on hotplug.
 
 %prep
-%setup -q -n kanshi-%{version}
+%setup -q -n kanshi-v%{version}
 
 %build
 export GCC_IGNORE_WERROR=1
