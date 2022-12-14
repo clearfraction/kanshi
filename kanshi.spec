@@ -1,5 +1,5 @@
 Name     : kanshi
-Version  : 1.3.0
+Version  : 1.3.1
 Release  : 1
 URL      : https://git.sr.ht/~emersion/kanshi
 Source0  : https://git.sr.ht/~emersion/kanshi/archive/v%{version}.tar.gz
