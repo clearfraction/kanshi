@@ -31,7 +31,7 @@ export FCFLAGS="$FFLAGS -O3 -ffat-lto-objects -flto=auto "
 export FFLAGS="$FFLAGS -O3 -ffat-lto-objects -flto=auto "
 export CXXFLAGS="$CXXFLAGS -O3 -ffat-lto-objects -flto=auto "
 
-pushd libscfg-v%{libscfg-ver}
+pushd libscfg-v%{libscfg_ver}
     meson --libdir=lib64 --prefix=/usr --buildtype=plain builddir2
     ninja -v -C builddir2
     DESTDIR=/ ninja -C builddir2 install
